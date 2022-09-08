@@ -6,6 +6,14 @@ import Logo from '../assets/img/logo.png'
 const Header = () => {
   const [header, setHeader] = useState(false);
 
+  useEffect(() => {
+    //scroll eventListner
+    window.addEventListener('scroll', () =>{
+      window.scrollY > 36 ? setHeader(true) : setHeader(false);
+    })
+  })
+
+
   return ( 
     <header className={`${header ? 'top-0' : 'top-9'} fixed bg-white w-full
      max-w-[90vw] lg:max-w-[1170px] mx-auto rounded-md h-[90px] shadow-primary px-4 lg:px-8 z-20 transition-all duration-500 flex items-center justify-between`}>
