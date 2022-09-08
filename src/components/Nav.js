@@ -1,7 +1,20 @@
 import React from 'react';
+import {navigation} from '../data'
+
 
 const Nav = () => {
-  return <div>Nav</div>;
+  return (
+    <nav className='ml-[70px]'>
+      <ul className='flex gap-x-[42px]'>
+        {navigation.map((item, index) =>{
+        return( 
+          <li key={index}>
+            <a href={item.href}>{item.name}</a>
+          </li>);
+      })}
+      </ul>
+    </nav>
+  );
 };
 
 export default Nav;
