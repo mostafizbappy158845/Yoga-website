@@ -19,6 +19,7 @@ const App = () => {
     <Cards/>
     <Facts/>
     <Features/>
+    <Courses/>
     <div className="h-[2000px]"></div>
   </div>;
 };
