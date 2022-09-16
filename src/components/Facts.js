@@ -35,11 +35,20 @@ const Facts = () => {
         <div className='flex-1 -order-1 lg:order-none'>
           <div className='flex flex-col justify-center h-full
           lg:pl-[100px]'>
-            <h2 className='h2 mb-12 max-w-[295px] md:max-w-none'>Relax And Enjoy a Personalized Day Yoga With Us.</h2>
-            <div className='mb-2'>
+            <h2 className='h2 mb-12 max-w-[295px] md:max-w-none'
+            data-aos='fade-down'
+            data-aos-delay='500'
+            >Relax And Enjoy a Personalized Day Yoga With Us.</h2>
+            <div className='mb-2'
+            data-aos='fade-down'
+            data-aos-delay='500'
+            >
               <img src={Image} alt="" />
             </div>
-            <div className='text-lg mb-6 font-bold text-heading'>
+            <div className='text-lg mb-6 font-bold text-heading'
+            data-aos='fade-down'
+            data-aos-delay='700'
+            >
               Jhon Cena <span className='text-base text-paragraph font-normal'>/Founder</span>
             </div>
           </div>
