@@ -6,7 +6,7 @@ import { BsPlayCircleFill } from 'react-icons/bs';
 const Features = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <section className='bg-section min-h-[428px] pt-8 pb-[38px] lg:pb-[150px] mt-[120px]
+    <section  className='bg-section min-h-[428px] pt-8 pb-[38px] lg:pb-[150px] mt-[120px]
     lg:mt-[130px]'>
       <div className="container mx-auto">
         {/* video-bg */}

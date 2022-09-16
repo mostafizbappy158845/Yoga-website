@@ -4,7 +4,7 @@ import { pricing } from '../data';
 const Pricing = () => {
   const [index, setIndex] = useState(0);
   return (
-    <section className='section-sm lg:section-lg bg-section'>
+    <section id='features' className='section-sm lg:section-lg bg-section'>
       <div className="container mx-auto">
         {/* text */}
         <div className='text-center mb-7 lg:mb-[70px]'>
